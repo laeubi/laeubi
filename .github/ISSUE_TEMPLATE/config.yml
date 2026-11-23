@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or general discussion
+    url: https://github.com/laeubi/laeubi/discussions
+    about: Informal questions and ideas are best asked in a discussion.
+  - name: Become a sponsor
+    url: https://github.com/sponsors/laeubi
+    about: Sponsors get priority attention for their requests.

@@ -1,0 +1,21 @@
+name: Campaign suggestion
+description: Suggest a piece of work that could be funded as a campaign.
+labels: ["campaign-suggestion"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: What should be achieved?
+      description: A concrete deliverable that fits in a few days, e.g. support for a new version of a tool.
+    validations:
+      required: true
+  - type: input
+    id: links
+    attributes:
+      label: Related issues or projects
+      placeholder: https://github.com/...
+  - type: textarea
+    id: beneficiaries
+    attributes:
+      label: Who benefits?
+      description: Which companies or groups would profit, and would you contribute to funding it?

@@ -1,0 +1,37 @@
+name: Request - look at an issue, PR or problem
+description: Ask me to look at an issue, review a PR or help with a problem in an open source project.
+labels: ["request"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: The issue, pull request or discussion you want me to look at.
+      placeholder: https://github.com/...
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What do you need?
+      multiple: true
+      options:
+        - Look at an issue
+        - Review a pull request
+        - Polish / shepherd a change until it is merged
+        - Help to find the best solution for a problem
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Context
+      description: What is the problem, why does it matter to you and is there a deadline?
+    validations:
+      required: true
+  - type: input
+    id: sponsor
+    attributes:
+      label: Sponsor account
+      description: The GitHub user or organization that sponsors me (if any).
