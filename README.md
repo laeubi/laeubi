@@ -27,7 +27,11 @@ Missing something you rely on? [Suggest a project](https://github.com/laeubi/lae
 
 Campaigns fund a concrete piece of work, each one has its own discussion where I post progress.
 
-- **Maven 4 support for m2e**: [campaign page](https://github.com/eclipse-m2e/m2e-core/discussions/2010)
+- 📦 [Maven 4 support for m2e](https://github.com/laeubi/laeubi/discussions/1)
+- 🧩 [Next generation OSGi resolver](https://github.com/laeubi/laeubi/discussions/2)
+- ☕ [Multi-Release projects in the Eclipse IDE](https://github.com/laeubi/laeubi/discussions/3)
+- 🔌 [A modern export for plug-ins, features and products](https://github.com/laeubi/laeubi/discussions/4)
+- 🥒 [Cucumber Eclipse for Cucumber 8 and more backends](https://github.com/laeubi/laeubi/discussions/5)
 
 Have an idea for the next one? [Suggest a campaign](https://github.com/laeubi/laeubi/issues/new?template=campaign-suggestion.yml)!
 
@@ -35,7 +39,7 @@ Have an idea for the next one? [Suggest a campaign](https://github.com/laeubi/la
 
 Your sponsoring keeps me able to review, maintain and improve the projects your ecosystem relies on.
 
-- **Monthly ($100)**: priority attention for your issues and PRs
+- **Monthly**: priority attention for your issues and PRs
 - **One time**: fund a developer day for a campaign
 
 👉 **[Become a sponsor](https://github.com/sponsors/laeubi)**
